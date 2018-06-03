@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<title>BCreavtiveTreasures.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.Bc-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.Bc-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="Bc-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="Bc-sidebar Bc-bar-block Bc-white Bc-collapse Bc-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="Bc-container Bc-display-container Bc-padding-16">
+    <i onclick="Bc_close()" class="fa fa-remove Bc-hide-large Bc-button Bc-display-topright"></i>
+    <h3 class="Bc-wide"><b>BCreative Treasures</b></h3>
+  </div>
+  <div class="Bc-padding-64 Bc-large Bc-text-grey" style="font-weight:bold">
+    <a href="index.html" class="Bc-bar-item Bc-button"> Home </a>
+    <a href="Wine-Glasses.html" class="Bc-bar-item Bc-button">Wine Glasses</a>
+    <a href="Tumblers.html" class="Bc-bar-item Bc-button">Tumblers</a>
+    <a href="MasonJars.html" class="Bc-bar-item Bc-button">Mason Jars</a>
+  </div>
+  <a href="#footer" class="Bc-bar-item Bc-button Bc-padding">Contact</a>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="Bc-bar Bc-top Bc-hide-large Bc-black Bc-xlarge">
+  <div class="Bc-bar-item Bc-padding-24 Bc-wide">BCreative BCreavtiveTreasures</div>
+  <a href="javascript:void(0)" class="Bc-bar-item Bc-button Bc-padding-24 Bc-right" onclick="Bc_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="Bc-overlay Bc-hide-large" onclick="Bc_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="Bc-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="Bc-hide-large" style="margin-top:83px"></div>
+
+  <!-- Top header -->
+  <header class="Bc-container Bc-xlarge">
+    <p class="Bc-left">Recent Purchases</p>
+    <p class="Bc-right">
+      <i class="fa fa-shopping-cart Bc-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="Bc-display-container Bc-container">
+    <img src="/Users/etern/MyProductWebsite/Images/new.jpg" alt="cups" style="width:100%">
+    <div class="Bc-display-topleft Bc-text-white" style="padding:24px 48px">
+      <h1 class="Bc-jumbo Bc-hide-small">New arrivals</h1>
+      <h1 class="Bc-hide-large Bc-hide-medium">New arrivals</h1>
+      <h1 class="Bc-hide-small">COLLECTION 2016</h1>
+      <p><a href="#jeans" class="Bc-button Bc-black Bc-padding-large Bc-large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="Bc-container Bc-text-grey" id="jeans">
+    <p>8 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="Bc-row Bc-grayscale">
+    <div class="Bc-col l3 s6">
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/cap2.jpg" style="width:100%">
+        <p>Grey Marvel Tumbler<br><b>$25.00</b></p>
+      </div>
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/cathat.jpg" style="width:100%">
+        <p>Cat and the Hat Tumbler<br><b>$25.00</b></p>
+      </div>
+    </div>
+
+    <div class="Bc-col l3 s6">
+      <div class="Bc-container">
+        <div class="Bc-display-container">
+          <img src="/Users/etern/MyProductWebsite/Images/wonder.jpg" style="width:100%">
+          <span class="Bc-tag Bc-display-topleft">New</span>
+          <div class="Bc-display-middle Bc-display-hover">
+            <button class="Bc-button Bc-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Wonderman Tumbler<br><b>$30.00</b></p>
+      </div>
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/sliver.jpg" style="width:100%">
+        <p>Multi Color Tumbler<br><b>$25.00</b></p>
+      </div>
+    </div>
+
+    <div class="Bc-col l3 s6">
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/twins2.jpg" style="width:100%">
+        <p>Twin blue Tumblers<br><b>$50.00</b></p>
+      </div>
+      <div class="Bc-container">
+        <div class="Bc-display-container">
+          <img src="/Users/etern/MyProductWebsite/Images/Mother'sday.jpg" style="width:100%">
+          <span class="Bc-tag Bc-display-topleft">Sale</span>
+          <div class="Bc-display-middle Bc-display-hover">
+            <button class="Bc-button Bc-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mother's Day Tumbler<br><b class="Bc-text-red">$25.00</b></p>
+      </div>
+    </div>
+
+    <div class="Bc-col l3 s6">
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/Gold.jpg" style="width:100%">
+        <p>Gold Tumbler<br><b>$25.00</b></p>
+      </div>
+      <div class="Bc-container">
+        <img src="/Users/etern/MyProductWebsite/Images/tumbler.jpg" style="width:100%">
+        <p>Blue and Pink Tumbler<br><b>$25.00</b></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="Bc-padding-64 Bc-light-grey Bc-small Bc-center" id="footer">
+    <div class="Bc-row-padding">
+      <div class="Bc-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="Bc-input Bc-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="Bc-input Bc-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="Bc-input Bc-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="Bc-input Bc-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="Bc-button Bc-block Bc-black">Send</button>
+        </form>
+      </div>
+
+      <div class="Bc-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="#">Payment</a>
+        <p><a href="#">Return</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+
+      <div class="Bc-col s4 Bc-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> BCreative Treasures</p>
+        <p><i class="fa fa-fw fa-phone"></i>7573765813</p>
+        <p><i class="fa fa-fw fa-envelope"></i> Bylinda.mclellan@gmail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official Bc-hover-opacity Bc-large"></i>
+        <i class="fa fa-instagram Bc-hover-opacity Bc-large"></i>
+        <i class="fa fa-snapchat Bc-hover-opacity Bc-large"></i>
+        <i class="fa fa-pinterest-p Bc-hover-opacity Bc-large"></i>
+        <i class="fa fa-twitter Bc-hover-opacity Bc-large"></i>
+        <i class="fa fa-linkedin Bc-hover-opacity Bc-large"></i>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+<script>
+// Accordion
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("Bc-show") == -1) {
+        x.className += " Bc-show";
+    } else {
+        x.className = x.className.replace(" Bc-show", "");
+    }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidebar
+function Bc_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function Bc_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
